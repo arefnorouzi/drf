@@ -19,13 +19,14 @@ I used sqlite db in this project. You can use any databases like (Mysql, Postgre
 
 ## How to create superuser?
 In Windows:<br />
-Run ```venv\Scripts\activate```
-Run ```python manage.py createsuperuser```
+-Run ```venv\Scripts\activate```
+-Run ```python manage.py createsuperuser```<br />
 Enter your name, email and password
 
-In (Linux and mac os):<br />
-Run ```source venv/bin/activate```
-Run ```python manage.py createsuperuser```
+In (Linux and macOs):<br />
+-Run ```source venv/bin/activate```
+-Run ```python manage.py createsuperuser```<br />
+Enter your name, email and password
 
 
 ## License
