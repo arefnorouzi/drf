@@ -3,6 +3,8 @@ from .models import Post
 
 
 class PostInputSerializer(serializers.ModelSerializer):
+    title = serializers.CharField(min_length=3, max_length=68, required=True)
+
     class Meta:
         model = Post
         fields = ['title', 'description']

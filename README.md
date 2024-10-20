@@ -23,11 +23,13 @@ In Windows:
 - Run ```python manage.py createsuperuser```
 - Enter your name, email and password
 
-In (Linux and macOs):
+In (Linux and mac):
 - Run ```source venv/bin/activate```
 - Run ```python manage.py createsuperuser```
 - Enter your name, email and password
 
+## Test
+- inside drf folder, run ```pytest```
 
 ## License
 Copyright © 2011-present, [Encode OSS Ltd](https://www.encode.io/). All rights reserved.
